@@ -14,7 +14,7 @@ The alignment between nucleic acid sequences is implemented using BioPython's Pa
 3. GC Content Calculation - Provides GC content information to assist users in analyzing sequence stability.
 
 ## Scenarios:
-1. Teaching Demonstrations - Analyze the similarity between DNA sequences and predict the basic process of sequence pairing.
+1. Teaching Demonstrations - Analyze the similarity and predict the basic process of sequence pairing.
 2. Experimental Reproduction - Visualize paired regions to aid in understanding reported DNA hybridization reactions.
 3. Sequence Design - Assist in designing DNA sequences to ensure specific pairings between sequences.
 4. Library Screening: Facilitate the evaluation of the orthogonality and stability of large-scale DNA libraries.
