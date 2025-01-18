@@ -9,7 +9,7 @@ The alignment between nucleic acid sequences is implemented using BioPython's Pa
 - determined based on the scoring settings for matches, mismatches, gap opening, and gap extension.
 
 ## Features:
-1. Dual Alignment Modes
+1. Dual Alignment Modes -
 - Strict Mode: Employs high penalty scores, suitable for highly specific complementary pairings.
 - Relaxed Mode: Uses low penalty scores, ideal for screening potential non-orthogonal sequences.
 2. Color Generation - Utilizes HTML and CSS technologies to create an interactive interface for displaying sequence alignment results. Dynamic style adjustments (e.g., layered color effects) enhance the user experience.
