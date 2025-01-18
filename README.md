@@ -1,6 +1,8 @@
 # IriSeq (Interactive Sequence Visualizer) 
 IriSeq is a visualization tool specifically designed for nucleic acid sequence analysis. Its goal is to assist researchers in intuitively observing and analyzing pairing interactions between nucleic acid sequences through efficient algorithms and an interactive interface. With a visually appealing interface and precise alignment capabilities as its core features, the software integrates functions such as pairing analysis, GC content calculation, and color annotation, making it ideal for visualizing base complementarity results in nucleic acid research.
 
+![Example Image](homepage.png)
+
 ## Principle: 
 The alignment between nucleic acid sequences is implemented using BioPython's PairwiseAligner. The local alignment algorithm (Smith-Waterman algorithm) is employed to extract the most similar local regions from the sequences，which is
 - set to local, focusing only on similar regions within the sequences.
