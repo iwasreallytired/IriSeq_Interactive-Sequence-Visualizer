@@ -1,0 +1,36 @@
+User Manual
+
+# Quick Start:
+1. Ensure the input file seq_input.txt is in the same folder.
+2. Run the application iriseq.exe.
+3. Open the generated HTML file to view the alignment results.
+
+
+# Detailed Instructions:
+1. Prepare the Input File:
+- Create a text file named seq_input.txt and ensure it is in the same directory as the program.
+- On the first line, type either "strict" or "relaxed" to set the analysis mode.
+- On subsequent lines, input the DNA sequences, one sequence per line.
+
+2. Run the Application:
+- Execute iriseq.exe located in the same directory and wait approximately 10 seconds.
+
+3. View the Results:
+- After running the software, an HTML file named dna_alignment_visualization.html will be generated.
+- Open the HTML file to access the following information:
+    · Sequence Cards: Each sequence is displayed as a card, showing its name, length, and nucleotide sequence.
+    · Paired Regions: The paired regions are color-coded, and a toggle button allows you to switch the display.
+    · Alignment Information: Displays the length and GC content of each paired region.
+
+# Important Notes:
+1. Input File Format:
+- The first line must specify the mode ("strict/relaxed").
+- Ensure the file format is correct, with one sequence per line.
+- Use a colon (:) to separate sequence names and sequences.
+- Do not modify the file name.
+
+2. Sequence Length:
+- Processing very long sequences may slow down the alignment process.
+
+3. RNA Analysis:
+- This tool is designed for DNA due to its prevalent use in nanostructures and hybridization chain reactions. However, if RNA-related analysis is required, replace "U" in RNA sequences with "T" beforehand.
